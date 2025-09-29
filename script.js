@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "N-nyaaa!! don't touch itt >~<";
+  const startMessage = "gura nya~";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
