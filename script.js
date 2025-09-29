@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "gura nya~";
+  const startMessage = "babayla zor yarışırlar";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
