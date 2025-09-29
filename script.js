@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
       totalVisitors = parseInt(totalVisitors);
     }
 
-    const hasVisited = localStorage.getItem('hasVisited');
+    const hasVisited = localStorage.getItem('hasVisited ');
     if (!hasVisited) {
       totalVisitors++;
       localStorage.setItem('totalVisitorCount', totalVisitors);
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const bioMessages = [
-    "sybauuu",
+    "sybau",
     "sudo kill me"
   ];
   let bioText = '';
