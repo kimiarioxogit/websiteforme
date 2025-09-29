@@ -10,28 +10,13 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Courier New', monospace;
-            cursor: none !important;
+            user-select: none !important;
         }
-
-        
-        .custom-cursor {
-            position: fixed;
-            width: 40px;
-            height: 40px;
-            background: url('assets/custom_cursor.png') no-repeat center center;
-            background-size: contain;
-            pointer-events: none;
-            z-index: 9999;
-            transform: translate(-50%, -50%);
-        }
-
-        
+ 
         body:not(.touch-device) {
-            cursor: none;
         }
 
         body {
-            cursor: none;
             background-color: #000;
             color: #fff;
             overflow: hidden;
@@ -845,10 +830,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Retro+Gaming&display=swap" rel="stylesheet">
 </head>
 <body class="home-theme" onload="initMedia()">
-    
-    <div class="custom-cursor"></div>
-
-    
     <div id="start-screen">
         <div id="start-text"></div>
     </div>
@@ -878,11 +859,10 @@
                     <div class="name-and-badges">
                         <div id="profile-name">JAQLIV</div>
                         <div class="badge-box">
-                            <div class="badge-box-inner">
+                            <div class="badge-box-inner" style="margin-left: 0px;">
                                 <div class="badge-group">
                                     <div class="badge-container">
-                                        <img src="" alt="" class="badge">
-                                        <span class="tooltip"></span>
+                                        #1 Pubg aug player
                                     </div>
                                 </div>
                             </div>
@@ -896,18 +876,15 @@
 
             <div class="profile-footer">
 
-                <div class="social-links">
-                    <a href="https://discord.gg/motiongoats" target="_blank">
+                <div class="social-links" style="gap: 20px;">
+                    <a href="https://discord.gg/" target="_blank">
                         <img src="assets/discord.png" alt="Discord" class="social-icon">
                     </a>
-                    <a href="https://github.com/JAQLIV" target="_blank">
+                    <a href="https://github.com/kimiarioxogit" target="_blank">
                         <img src="assets/github.png" alt="GitHub" class="social-icon">
                     </a>
-                    <a href="https://www.youtube.com/@jaqliv" target="_blank">
+                    <a href="https://www.youtube.com/@kimiariox.o" target="_blank">
                         <img src="assets/youtube.png" alt="YouTube" class="social-icon">
-                    </a>
-                    <a href="https://www.tiktok.com/@jaqliv" target="_blank">
-                        <img src="assets/tiktok.png" alt="TikTok" class="social-icon">
                     </a>
                 </div>
 

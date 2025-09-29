@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const badges = document.querySelectorAll('.badge');
 
   
-  const cursor = document.querySelector('.custom-cursor');
   const isTouchDevice = window.matchMedia("(pointer: coarse)").matches;
 
   if (isTouchDevice) {
