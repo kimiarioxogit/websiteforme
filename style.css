@@ -12,8 +12,15 @@
   transition: all 0.3s ease;
 }
 
+@font-face {
+  font-family: 'Dracutaz';
+  src: url('assets/dracutaz.regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Dracutaz', sans-serif;
   background: var(--background-dark);
   color: var(--text-color);
   overflow-x: hidden;
@@ -702,6 +709,7 @@ body.car-theme {
     clip: rect(90px, 9999px, 55px, 0);
   }
 }
+
 
 @keyframes glitch-anim {
   0% {
